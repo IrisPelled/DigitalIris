@@ -8,7 +8,7 @@ import "./index.css";
 createRoot(document.getElementById("root")!).render(
   <StrictMode>
     <ErrorBoundary>
-      <BrowserRouter basename="/DigitalIris">
+      <BrowserRouter basename="/Digitallris">
         <App />
       </BrowserRouter>
     </ErrorBoundary>
