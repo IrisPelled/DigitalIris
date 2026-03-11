@@ -20,7 +20,7 @@ export default function NavBar() {
         className="flex shrink-0 items-center focus:outline-none focus-visible:ring-2 focus-visible:ring-cyan focus-visible:ring-offset-2 focus-visible:ring-offset-blue-black-base"
       >
         <img
-          src="/assets/svgs/LogoDI.svg"
+          src={`${import.meta.env.BASE_URL}assets/svgs/LogoDI.svg`}
           alt="Digital Iris"
           className="h-8 w-auto"
         />

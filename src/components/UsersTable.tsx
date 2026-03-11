@@ -41,7 +41,7 @@ export function UsersTable({ users, isLoading }: UsersTableProps) {
     return (
       <div className="flex flex-col items-center gap-6 rounded-2xl border border-white/10 bg-deep-shadow/50 p-12">
         <img
-          src="/assets/svgs/LogoDI.svg"
+          src={`${import.meta.env.BASE_URL}assets/svgs/LogoDI.svg`}
           alt=""
           className="h-24 w-auto opacity-40"
         />
